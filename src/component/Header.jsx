@@ -70,8 +70,8 @@ const Header = () => {
                     <p className='text-uppercase'>Verify Report</p>
                 </a>             
                  
-                <a href="#" className="profile border-bottom">
-                    <span>Hi, Ashish Sood</span>
+                <a href="#" className="profile border-2 border-bottom border-warning pb-2">
+                    <span><img className='border rounded-circle p-1' src=".\src\assets\profile.svg" alt="" /><small className='text-dark'>Hi, Ashish Sood</small></span>
                 </a>             
             </div>
           </div>
@@ -79,48 +79,7 @@ const Header = () => {
         </div>
       </nav>
       </div>
-    </header>
-    <nav className='container-fluid border menu-item'>
-    <div class="list-group d-flex flex-row justify-content-between">       
-        <a href="#" className="list-group-item border-0 bg-transparent">NEW ARRIVAL</a>
-        <a href="#" className="list-group-item border-0 bg-transparent">RINGS</a>
-        <a href="#" className="list-group-item border-0 bg-transparent">EARRINGS</a>
-        <a href="#" className="list-group-item border-0 bg-transparent">PENDANTS</a>
-        <a href="#" className="list-group-item border-0 bg-transparent">BRACELETS & BANGLES</a>
-        <a href="#" className="list-group-item border-0 bg-transparent">SOLITIARES</a>
-        <a href="#" className="list-group-item border-0 bg-transparent">GOLD COINS</a>
-        <a href="#" className="list-group-item border-0 bg-transparent">ALL JEWELLERY</a>
-      </div>
-    </nav>
-    <div className="container-fluid">
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li className="breadcrumb-item"><a href="#">Home</a></li>
-          <li className="breadcrumb-item"><a href="#">Product</a></li>
-          <li className="breadcrumb-item"><a href="#">Earings</a></li>
-          <li className="breadcrumb-item active" aria-current="page">Just Lovely Earings</li>
-        </ol>
-      </nav>
-    </div>
-    <div className="container-fluid">
-      <div className="row">
-        <div className="col-md-5"></div>
-        <div className="col-md-7">
-          <div className="bg-light rounded p-1">
-           <div className="d-flex justify-content-between">
-           <div className="product-title">
-              <h5>Dainty Crown Diamond Band Ring</h5>
-              <span>Floral shine that can Entice</span>
-            </div>
-            <div className="icon">
-              <span className='pe-2'><i className="bi bi-heart"></i></span>
-              <span><i className="bi bi-share"></i></span>
-            </div>
-           </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    </header>    
     </>
   )
 }
